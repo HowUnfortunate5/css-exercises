@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.odd {
+    background-color: rgb(214, 97, 97);
+    font-family: Verdana, DejaVusans, Tahoma, sans-serif;
+}
+
+#numbertwo {
+    font-size: 36px;
+    color: rgb(20, 20, 120)
+    
+}
+
+.fontbig,
+#numberfour {
+    font-size: 24px; 
+}
+
+#numberfour {
+    font-weight: bold;
+    background-color: rgb(20,160,40);
+}
