@@ -9,9 +9,15 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.header > div {
+  margin:8px;
 }
 
 .profile-image {
@@ -43,6 +49,19 @@ a {
   color: rebeccapurple;
 }
 
-ul {
-  list-style-type: none;
+.links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
 }
+
+.topleft,
+.topright {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
